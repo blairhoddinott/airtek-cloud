@@ -351,3 +351,4 @@ be_service = aws.ecs.Service(
 )
 
 pulumi.export("fe_image_url", frontend_image_name)
+pulumi.export("be_image_url", backend_image_name)
